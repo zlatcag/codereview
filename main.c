@@ -9,7 +9,7 @@ int main(void)
 	if(fd <0)
 	{
 		perror("111 222 333 444 openfail:");
-		printf("555\n");
+		printf("555 666\n");
 		exit(1);
 	}
         return 0;
