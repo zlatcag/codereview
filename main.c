@@ -9,6 +9,7 @@ int main(void)
 	if(fd <0)
 	{
 		perror("openfail:");
+		exit(1);
 	}
         return 0;
 }
